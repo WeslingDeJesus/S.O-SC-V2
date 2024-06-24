@@ -51,9 +51,10 @@ body{
 
 .nav{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 .preguntas{
+    display: inline-block;
     position: relative;
     justify-content: center;
     align-items: center;
@@ -78,6 +79,7 @@ body{
    transition: .2s ease-in;
 }
 .respuestas{
+    display: inline-block;
     position: relative;
     justify-content: center;
     align-items: center;
